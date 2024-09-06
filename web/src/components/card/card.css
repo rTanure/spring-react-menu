@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: rgba(15, 15, 17, 0.2) 0px 7px 29px 0px;
+  padding: 0;
+  gap: 16px;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.card img {
+  border-radius: 8px 8px 0 0;
+  width: 250px;
+  height: 200px;
+}
+
+.card .btn-delete {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 70px;
+  height: 24px;
+  background-color: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  transition: opacity 0.25s;
+}
+
+.card:not(:hover) .btn-delete {
+  opacity: 0;
+}
