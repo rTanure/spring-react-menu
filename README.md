@@ -1,6 +1,6 @@
 # Food Menu - React & Spring Boot
 
-![enter image description here](https://raw.githubusercontent.com/rTanure/spring-react-menu/main/media/screenshot.png)
+![enter image description here](https://raw.githubusercontent.com/rTanure/spring-react-menu/main/media/screenshot_1.png)
 - A simple create, read and delete system built with Java Spring Boot, PostgreSQL and React.js
 ## Start
 ### API
